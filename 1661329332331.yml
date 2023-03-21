@@ -1,0 +1,799 @@
+proxies:
+  - name: Lv4 台湾2Xsg-sh
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 37126
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 台湾 3X
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 37125
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 台湾 XX
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 37123
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 日本lins
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 37777
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 新加坡 linode
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 39006
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 日本lin3P
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 37778
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 日本lin
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 37777
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 香港neko HN
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 24567
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 美国 linode
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 39334
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 印度2 恒河涡轮加速
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 45012
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 印度 恒河涡轮加速
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 45333
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 香港HE-gz 解锁
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 37892
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 香港HE3-sg-sh解锁
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 39015
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 台湾 hi52 解锁
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 34567
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 台湾hi50 解锁
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 38888
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 台湾hi50 广
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 38888
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 台湾hi52 NF上
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 34567
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 台湾hi51 解锁
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 37808
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 台湾hi51 广
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 37808
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 香港HE2-az-sh 解锁
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 41712
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 新加坡 linodes
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 39006
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 新加坡do
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 37813
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 德国 linode
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 39337
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 美国 圣何塞 解锁
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 26671
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 澳大利亚 悉尼 linode
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 39019
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 美国 洛杉矶inp
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 26673
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 美国 洛杉矶inp3
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 26674
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 泰国 广
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 45002
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 韩国甲骨gy2
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 37767
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 新加坡XX河
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 45013
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 新加坡XXgy
+    type: ss
+    server: gz2.ct.288888312.xyz
+    port: 45013
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 韩国甲骨
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 37767
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 美国inp2
+    type: vmess
+    server: sp1.88000022.xyz
+    port: "443"
+    uuid: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: sp1.88000022.xyz
+    network: ws
+  - name: Lv3 cera X
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 44556
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 日本max3
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 46678
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 日本max4
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 46679
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 韩国甲骨2
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 37766
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 新加坡do5
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 37183
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 新加坡do6
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 37184
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 韩国3
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 45001
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 泰国
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 45002
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 日本azs
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 45111
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 英国
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 45004
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 土耳其
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 46001
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 英国3上
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 57001
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 英国4广
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 57002
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 韩国甲骨2上
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 37766
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 美国 圣何塞3NF广
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 39999
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 美国 圣何塞4NF广
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 39004
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 日本 max7
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 39007
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 日本6
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 57003
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 日本7
+    type: ss
+    server: sh.cm.izhimajiasu.com
+    port: 57004
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 新加坡 XX广
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 45013
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 日本 vir
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 45011
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 韩国3
+    type: ss
+    server: gz.ct.288888312.xyz
+    port: 45033
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 俄罗斯
+    type: ss
+    server: gz.cm.izhimajiasu.com
+    port: 47785
+    cipher: chacha20-ietf-poly1305
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv3 美国gtt3NF
+    type: vmess
+    server: sg2.88000022.xyz
+    port: "443"
+    uuid: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: sg2.88000022.xyz
+    network: ws
+  - name: Lv3 美国gtt5解锁奈飞
+    type: vmess
+    server: gtt5.88000022.xyz
+    port: "443"
+    uuid: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: gtt5.88000022.xyz
+    network: ws
+  - name: Lv3 美国芝加哥
+    type: vmess
+    server: elg2.88000022.xyz
+    port: "443"
+    uuid: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: elg2.88000022.xyz
+    network: ws
+  - name: Lv3 美国 芝加哥GTT
+    type: trojan
+    server: rb1.88000022.xyz
+    port: 53392
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+    sni: rb1.88000022.xyz
+  - name: Lv3 美国cc 原生解锁
+    type: trojan
+    server: cc.88000022.xyz
+    port: 37792
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+    sni: cc.88000022.xyz
+  - name: Lv3 美国Rn解锁NF
+    type: trojan
+    server: rn.88000022.xyz
+    port: 47792
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+    sni: rn.88000022.xyz
+  - name: Lv4 香港 轻量4
+    type: trojan
+    server: qlhk4.88000022.xyz
+    port: 37892
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+    sni: qlhk4.88000022.xyz
+  - name: Lv4 香港 轻量3
+    type: trojan
+    server: qlhk3.88000022.xyz
+    port: 57822
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+  - name: Lv4 香港 轻量
+    type: trojan
+    server: qlhk.88000022.xyz
+    port: 56714
+    password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83
+    udp: true
+    sni: qlhk.88000022.xyz
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - load balance
+      - Lv4 台湾2Xsg-sh
+      - Lv4 台湾 3X
+      - Lv4 台湾 XX
+      - Lv4 日本lins
+      - Lv4 新加坡 linode
+      - Lv4 日本lin3P
+      - Lv4 日本lin
+      - Lv4 香港neko HN
+      - Lv4 美国 linode
+      - Lv3 印度2 恒河涡轮加速
+      - Lv3 印度 恒河涡轮加速
+      - Lv4 香港HE-gz 解锁
+      - Lv4 香港HE3-sg-sh解锁
+      - Lv4 台湾 hi52 解锁
+      - Lv4 台湾hi50 解锁
+      - Lv4 台湾hi50 广
+      - Lv4 台湾hi52 NF上
+      - Lv4 台湾hi51 解锁
+      - Lv4 台湾hi51 广
+      - Lv4 香港HE2-az-sh 解锁
+      - Lv4 新加坡 linodes
+      - Lv3 新加坡do
+      - Lv3 德国 linode
+      - Lv4 美国 圣何塞 解锁
+      - Lv3 澳大利亚 悉尼 linode
+      - Lv4 美国 洛杉矶inp
+      - Lv3 美国 洛杉矶inp3
+      - Lv3 泰国 广
+      - Lv3 韩国甲骨gy2
+      - Lv4 新加坡XX河
+      - Lv4 新加坡XXgy
+      - Lv3 韩国甲骨
+      - Lv3 美国inp2
+      - Lv3 cera X
+      - Lv4 日本max3
+      - Lv3 日本max4
+      - Lv3 韩国甲骨2
+      - Lv3 新加坡do5
+      - Lv4 新加坡do6
+      - Lv3 韩国3
+      - Lv3 泰国
+      - Lv4 日本azs
+      - Lv3 英国
+      - Lv3 土耳其
+      - Lv3 英国3上
+      - Lv3 英国4广
+      - Lv3 韩国甲骨2上
+      - Lv3 美国 圣何塞3NF广
+      - Lv3 美国 圣何塞4NF广
+      - Lv3 日本 max7
+      - Lv3 日本6
+      - Lv3 日本7
+      - Lv4 新加坡 XX广
+      - Lv4 日本 vir
+      - Lv4 韩国3
+      - Lv3 俄罗斯
+      - Lv3 美国gtt3NF
+      - Lv3 美国gtt5解锁奈飞
+      - Lv3 美国芝加哥
+      - Lv3 美国 芝加哥GTT
+      - Lv3 美国cc 原生解锁
+      - Lv3 美国Rn解锁NF
+      - Lv4 香港 轻量4
+      - Lv4 香港 轻量3
+      - Lv4 香港 轻量
+  - name: 带宽
+    proxies:
+      - load balance
+      - 代理
+    type: select
+  - name: 玄学
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+  - name: 港台限定
+    type: select
+    proxies:
+      - Lv4 台湾2Xsg-sh
+      - Lv4 台湾 3X
+      - Lv4 台湾 XX
+      - Lv4 香港neko HN
+      - Lv4 香港HE-gz 解锁
+      - Lv4 香港HE3-sg-sh解锁
+      - Lv4 台湾 hi52 解锁
+      - Lv4 台湾hi50 解锁
+      - Lv4 台湾hi50 广
+      - Lv4 台湾hi52 NF上
+      - Lv4 台湾hi51 解锁
+      - Lv4 台湾hi51 广
+      - Lv4 香港HE2-az-sh 解锁
+      - Lv4 香港 轻量4
+      - Lv4 香港 轻量3
+      - Lv4 香港 轻量
+  - name: bilibili
+    type: select
+    proxies:
+      - DIRECT
+      - 港台限定
+  - name: 其他
+    type: select
+    proxies:
+      - DIRECT
+      - 代理
+  - name: load balance
+    type: load-balance
+    strategy: round-robin
+    proxies:
+      - Lv4 台湾2Xsg-sh
+      - Lv4 台湾 3X
+      - Lv4 台湾 XX
+      - Lv4 日本lins
+      - Lv4 新加坡 linode
+      - Lv4 日本lin3P
+      - Lv4 日本lin
+      - Lv4 香港neko HN
+      - Lv4 美国 linode
+      - Lv3 印度2 恒河涡轮加速
+      - Lv3 印度 恒河涡轮加速
+      - Lv4 香港HE-gz 解锁
+      - Lv4 香港HE3-sg-sh解锁
+      - Lv4 台湾 hi52 解锁
+      - Lv4 台湾hi50 解锁
+      - Lv4 台湾hi50 广
+      - Lv4 台湾hi52 NF上
+      - Lv4 台湾hi51 解锁
+      - Lv4 台湾hi51 广
+      - Lv4 香港HE2-az-sh 解锁
+      - Lv4 新加坡 linodes
+      - Lv3 新加坡do
+      - Lv3 德国 linode
+      - Lv4 美国 圣何塞 解锁
+      - Lv3 澳大利亚 悉尼 linode
+      - Lv4 美国 洛杉矶inp
+      - Lv3 美国 洛杉矶inp3
+      - Lv3 泰国 广
+      - Lv3 韩国甲骨gy2
+      - Lv4 新加坡XX河
+      - Lv4 新加坡XXgy
+      - Lv3 韩国甲骨
+      - Lv3 美国inp2
+      - Lv3 cera X
+      - Lv4 日本max3
+      - Lv3 日本max4
+      - Lv3 韩国甲骨2
+      - Lv3 新加坡do5
+      - Lv4 新加坡do6
+      - Lv3 韩国3
+      - Lv3 泰国
+      - Lv4 日本azs
+      - Lv3 英国
+      - Lv3 土耳其
+      - Lv3 英国3上
+      - Lv3 英国4广
+      - Lv3 韩国甲骨2上
+      - Lv3 美国 圣何塞3NF广
+      - Lv3 美国 圣何塞4NF广
+      - Lv3 日本 max7
+      - Lv3 日本6
+      - Lv3 日本7
+      - Lv4 新加坡 XX广
+      - Lv4 日本 vir
+      - Lv4 韩国3
+      - Lv3 俄罗斯
+      - Lv3 美国gtt3NF
+      - Lv3 美国gtt5解锁奈飞
+      - Lv3 美国芝加哥
+      - Lv3 美国 芝加哥GTT
+      - Lv3 美国cc 原生解锁
+      - Lv3 美国Rn解锁NF
+      - Lv4 香港 轻量4
+      - Lv4 香港 轻量3
+      - Lv4 香港 轻量
+    url: http://www.youtube.com/generate_204
+    interval: 3600
+  - name: fallback
+    type: fallback
+    proxies:
+      - Lv4 台湾2Xsg-sh
+      - Lv4 台湾 3X
+      - Lv4 台湾 XX
+      - Lv4 日本lins
+      - Lv4 新加坡 linode
+      - Lv4 日本lin3P
+      - Lv4 日本lin
+      - Lv4 香港neko HN
+      - Lv4 美国 linode
+      - Lv3 印度2 恒河涡轮加速
+      - Lv3 印度 恒河涡轮加速
+      - Lv4 香港HE-gz 解锁
+      - Lv4 香港HE3-sg-sh解锁
+      - Lv4 台湾 hi52 解锁
+      - Lv4 台湾hi50 解锁
+      - Lv4 台湾hi50 广
+      - Lv4 台湾hi52 NF上
+      - Lv4 台湾hi51 解锁
+      - Lv4 台湾hi51 广
+      - Lv4 香港HE2-az-sh 解锁
+      - Lv4 新加坡 linodes
+      - Lv3 新加坡do
+      - Lv3 德国 linode
+      - Lv4 美国 圣何塞 解锁
+      - Lv3 澳大利亚 悉尼 linode
+      - Lv4 美国 洛杉矶inp
+      - Lv3 美国 洛杉矶inp3
+      - Lv3 泰国 广
+      - Lv3 韩国甲骨gy2
+      - Lv4 新加坡XX河
+      - Lv4 新加坡XXgy
+      - Lv3 韩国甲骨
+      - Lv3 美国inp2
+      - Lv3 cera X
+      - Lv4 日本max3
+      - Lv3 日本max4
+      - Lv3 韩国甲骨2
+      - Lv3 新加坡do5
+      - Lv4 新加坡do6
+      - Lv3 韩国3
+      - Lv3 泰国
+      - Lv4 日本azs
+      - Lv3 英国
+      - Lv3 土耳其
+      - Lv3 英国3上
+      - Lv3 英国4广
+      - Lv3 韩国甲骨2上
+      - Lv3 美国 圣何塞3NF广
+      - Lv3 美国 圣何塞4NF广
+      - Lv3 日本 max7
+      - Lv3 日本6
+      - Lv3 日本7
+      - Lv4 新加坡 XX广
+      - Lv4 日本 vir
+      - Lv4 韩国3
+      - Lv3 俄罗斯
+      - Lv3 美国gtt3NF
+      - Lv3 美国gtt5解锁奈飞
+      - Lv3 美国芝加哥
+      - Lv3 美国 芝加哥GTT
+      - Lv3 美国cc 原生解锁
+      - Lv3 美国Rn解锁NF
+      - Lv4 香港 轻量4
+      - Lv4 香港 轻量3
+      - Lv4 香港 轻量
+    url: http://www.youtube.com/generate_204
+    interval: 3600
+  - name: 拦截
+    proxies:
+      - REJECT
+      - DIRECT
+      - 代理
+    type: select
+rules:
+  - DOMAIN-SUFFIX,nro.gov,代理
+  - DOMAIN-SUFFIX,digitaloceanspaces.com,带宽
+  - DOMAIN-SUFFIX,flickr.com,代理
+  - DOMAIN-SUFFIX,nchc.org.tw,带宽
+  - DOMAIN-SUFFIX,gravatar.com,带宽
+  - DOMAIN-SUFFIX,pscp.tv,带宽
+  - DOMAIN-SUFFIX,id9.cc,代理
+  - DOMAIN-SUFFIX,tineye.com,代理
+  - DOMAIN-SUFFIX,iqdb.org,代理
+  - DOMAIN-SUFFIX,saucenao.com,玄学
+  - DOMAIN-SUFFIX,t.me,代理
+  - DOMAIN-SUFFIX,tdesktop.com,代理
+  - DOMAIN-SUFFIX,telegra.ph,代理
+  - DOMAIN-SUFFIX,telegram.me,代理
+  - DOMAIN-SUFFIX,telegram.org,代理
+  - DOMAIN-SUFFIX,telesco.pe,代理
+  - IP-CIDR,91.108.4.0/22,代理,no-resolve
+  - IP-CIDR,91.108.8.0/22,代理,no-resolve
+  - IP-CIDR,91.108.12.0/22,代理,no-resolve
+  - IP-CIDR,91.108.16.0/22,代理,no-resolve
+  - IP-CIDR,91.108.20.0/22,代理,no-resolve
+  - IP-CIDR,91.108.56.0/22,代理,no-resolve
+  - IP-CIDR,95.161.64.0/20,代理,no-resolve
+  - IP-CIDR,149.154.160.0/20,代理,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,代理,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,代理,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,代理,no-resolve
+  - DOMAIN-SUFFIX,hextris.io,代理
+  - DOMAIN-SUFFIX,anitrendz.com,代理
+  - DOMAIN-SUFFIX,myanimelist.net,代理
+  - DOMAIN-SUFFIX,facebook.com,代理
+  - DOMAIN-SUFFIX,fbcdn.net,带宽
+  - DOMAIN-SUFFIX,fbsbx.com,代理
+  - DOMAIN-SUFFIX,discord.com,代理
+  - DOMAIN-SUFFIX,discordapp.com,带宽
+  - DOMAIN,t.co,代理
+  - DOMAIN-SUFFIX,twitter.com,代理
+  - DOMAIN-SUFFIX,twimg.com,带宽
+  - DOMAIN-SUFFIX,reddit.com,代理
+  - DOMAIN-SUFFIX,redditstatic.com,代理
+  - DOMAIN-SUFFIX,redditmedia.com,带宽
+  - DOMAIN-SUFFIX,redd.it,带宽
+  - DOMAIN-SUFFIX,events.data.msn.cn,拦截
+  - DOMAIN-SUFFIX,events.data.microsoft.com,拦截
+  - DOMAIN-SUFFIX,microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,onedrive.live.com,玄学
+  - DOMAIN,www.bing.com,玄学
+  - DOMAIN-SUFFIX,github.com,DIRECT
+  - DOMAIN-SUFFIX,githubusercontent.com,带宽
+  - DOMAIN,g.co,代理
+  - DOMAIN-SUFFIX,gmail.com,代理
+  - DOMAIN-SUFFIX,google.com,代理
+  - DOMAIN-SUFFIX,google.com.hk,代理
+  - DOMAIN-SUFFIX,googlevideo.com,带宽
+  - DOMAIN-SUFFIX,googleapis.com,代理
+  - DOMAIN-SUFFIX,googleusercontent.com,带宽
+  - DOMAIN-SUFFIX,ggpht.com,代理
+  - DOMAIN-SUFFIX,youtube.com,代理
+  - DOMAIN-SUFFIX,ytimg.com,带宽
+  - DOMAIN,www.bilibili.com,bilibili
+  - DOMAIN,api.bilibili.com,bilibili
+  - DOMAIN-SUFFIX,pixiv.net,代理
+  - DOMAIN-SUFFIX,pximg.net,带宽
+  - DOMAIN-SUFFIX,bahamut.com.tw,港台限定
+  - DOMAIN-SUFFIX,gamer.com.tw,港台限定
+  - DOMAIN-SUFFIX,hinet.net,港台限定
+  - DOMAIN,izm.rocks,DIRECT
+  - GEOIP,CN,DIRECT
+  - GEOIP,US,代理
+  - MATCH,其他

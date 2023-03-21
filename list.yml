@@ -1,0 +1,131 @@
+files:
+  - url: ""
+    time: 1661329332331.yml
+    name: New Text Document.yml
+    selected:
+      - name: GLOBAL
+        now: Lv4 台湾 hi52 解锁
+      - name: 代理
+        now: load balance
+      - name: 带宽
+        now: load balance
+      - name: 玄学
+        now: 代理
+      - name: 港台限定
+        now: Lv4 台湾2Xsg-sh
+      - name: bilibili
+        now: DIRECT
+      - name: 其他
+        now: DIRECT
+      - name: 拦截
+        now: REJECT
+    mode: rule
+  - time: 1661582074819.yml
+    name: ZM
+    url: http://127.0.0.1/chfs/shared/sub.yaml
+    selected:
+      - name: GLOBAL
+        now: 🔮 负载均衡
+      - name: 🚀 节点选择
+        now: 🔮 负载均衡
+      - name: 🚀 手动切换
+        now: 🇯🇵 Lv4 日本lins
+      - name: 📲 电报消息
+        now: 🚀 节点选择
+      - name: pixiv
+        now: 🚀 节点选择
+      - name: 📹 油管视频
+        now: 🚀 节点选择
+      - name: 🎥 奈飞视频
+        now: 🚀 节点选择
+      - name: 📺 巴哈姆特
+        now: 🇨🇳 台湾节点
+      - name: 📺 哔哩哔哩
+        now: DIRECT
+      - name: eromanga
+        now: 🚀 节点选择
+      - name: 🌍 国外媒体
+        now: 🚀 节点选择
+      - name: 🌏 国内媒体
+        now: DIRECT
+      - name: 📢 谷歌FCM
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软云盘
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软服务
+        now: DIRECT
+      - name: 🍎 苹果服务
+        now: DIRECT
+      - name: 🎮 游戏平台
+        now: 🚀 节点选择
+      - name: 🎶 网易音乐
+        now: DIRECT
+      - name: Github
+        now: 🚀 节点选择
+      - name: OpenAI
+        now: 🇺🇲 美国节点
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 广告拦截
+        now: REJECT
+      - name: 🍃 应用净化
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: DIRECT
+      - name: 🇭🇰 香港节点
+        now: 🇭🇰 Lv4 香港HE2-hgc-bj 解锁
+      - name: 🇯🇵 日本节点
+        now: 🇯🇵 Lv4 日本lins
+      - name: 🇺🇲 美国节点
+        now: 🇺🇸 Lv4 美国 洛杉矶inp
+      - name: 🇨🇳 台湾节点
+        now: 🇸🇬 Lv4 台湾2xsg-sh
+      - name: 🇸🇬 狮城节点
+        now: 🇸🇬 Lv4 新加坡 linode
+      - name: 🇰🇷 韩国节点
+        now: 🇰🇷 Lv3 韩国甲骨
+      - name: 🎥 奈飞节点
+        now: 🇸🇬 Lv4 新加坡HE解锁
+    interval: 0
+    subInfo: {}
+    mode: rule
+    cron: ""
+    headers: ""
+  - time: 1678540044630.yml
+    name: JSM
+    url: https://g1.subjsm.cyou/link/7so3Yo2mRbSKQ7WU?clash=1&extend=1
+    selected: []
+    interval: 240
+    subInfo:
+      upload: 62497124
+      download: 2392569257
+      total: 275951648768
+      expire: 1681099882
+    cron: ""
+    headers: ""
+  - time: 1678540279387.yml
+    name: JSM
+    url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fg1.subjsm.cyou%2Flink%2F7so3Yo2mRbSKQ7WU%3Fclash%3D1%26extend%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini
+    selected: []
+    interval: 240
+    subInfo:
+      upload: 62469914
+      download: 2392547540
+      total: 275951648768
+      expire: 1681099882
+    cron: ""
+    headers: ""
+    mode: rule
+  - time: 1678792976899.yml
+    name: ZM
+    url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fs.52zm.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D1c7dce8c1985b774a69403cbd3cca7e1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini
+    selected: []
+    interval: 240
+    subInfo:
+      upload: 252270791
+      download: 4189048792
+      total: 256624295936
+      expire: 1683527011
+    cron: ""
+    headers: ""
+index: 4
