@@ -109,8 +109,8 @@ files:
     selected: []
     interval: 240
     subInfo:
-      upload: 62469914
-      download: 2392547540
+      upload: 35803014867
+      download: 240835565398
       total: 275951648768
       expire: 1681099882
     cron: ""
@@ -119,13 +119,86 @@ files:
   - time: 1678792976899.yml
     name: ZM
     url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fs.52zm.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D1c7dce8c1985b774a69403cbd3cca7e1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini
-    selected: []
+    selected:
+      - name: GLOBAL
+        now: DIRECT
+      - name: 🚀 节点选择
+        now: 🔮 负载均衡
+      - name: 🚀 手动切换
+        now: 🇯🇵 Lv4 日本lins
+      - name: 📲 电报消息
+        now: 🚀 节点选择
+      - name: 📹 油管视频
+        now: 🚀 节点选择
+      - name: 🎥 奈飞视频
+        now: 🚀 节点选择
+      - name: 📺 巴哈姆特
+        now: 🇨🇳 台湾节点
+      - name: 📺 哔哩哔哩
+        now: 🇭🇰 香港节点
+      - name: pixiv
+        now: 🚀 节点选择
+      - name: eromanga
+        now: 🚀 节点选择
+      - name: Github
+        now: 🚀 节点选择
+      - name: OpenAI
+        now: 🇺🇲 美国节点
+      - name: 🌍 国外媒体
+        now: 🚀 节点选择
+      - name: 🌏 国内媒体
+        now: DIRECT
+      - name: 📢 谷歌FCM
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软云盘
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软服务
+        now: 🇺🇲 美国节点
+      - name: 🍎 苹果服务
+        now: DIRECT
+      - name: 🎮 游戏平台
+        now: 🚀 节点选择
+      - name: 🎶 网易音乐
+        now: DIRECT
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 广告拦截
+        now: REJECT
+      - name: 🍃 应用净化
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🚀 节点选择
+      - name: 🇭🇰 香港节点
+        now: 🇭🇰 Lv4 香港s
+      - name: 🇨🇳 台湾节点
+        now: 🇨🇳 Lv4 台湾hi52 NF上
+      - name: 🎥 奈飞节点
+        now: 🇸🇬 Lv4 新加坡 解锁NF 1.5x
     interval: 240
     subInfo:
-      upload: 252270791
-      download: 4189048792
+      upload: 43334779699
+      download: 127190338056
       total: 256624295936
       expire: 1683527011
+    cron: ""
+    headers: ""
+    mode: rule
+  - time: 1679878341269.yml
+    name: freenode
+    url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Ffreenode.me%2Fwp-content%2Fuploads%2F2023%2F03%2F298.yaml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini
+    selected:
+      - name: GLOBAL
+        now: DIRECT
+      - name: 🚀 节点选择
+        now: CN_FreeNode.me_8
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🚀 节点选择
+    interval: 0
+    subInfo: {}
     cron: ""
     headers: ""
 index: 4
