@@ -249,21 +249,17 @@ proxy-groups:
     proxies:
       - 节点选择
       - US
+      - Lv4 新加坡 解锁NF GPT 2x
       - Lv4 美国 大概能用ChatGPT
       - Lv4 美国3 大概能用ChatGPT
       - Lv4 美国 圣何塞 1
-      - Lv4 美国gtt3NF
       - Lv4 美国 洛杉矶 inp
       - Lv4 美国 圣何塞4
-      - Lv4 美国inp2
       - Lv3 美国 洛杉矶inp3
-      - Lv3 美国gtt5解锁奈飞
       - Lv3 美国 芝加哥X
       - Lv3 美国 芝加哥2
-      - Lv3 美国 gtt4
       - Lv3 美国 圣何塞3NF广
       - Lv3 美国 圣何塞4NF广
-      - Lv3 美国Rn解锁NF
   - name: eromanga
     type: select
     proxies:

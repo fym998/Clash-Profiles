@@ -232,8 +232,8 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 1997406584
-      download: 56218736509
+      upload: 1998279769
+      download: 56232403139
       total: 256624295936
       expire: 1699424611
     cron: ""
@@ -244,9 +244,9 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 0
-      download: 1
-      total: 1
+      upload: 5712391
+      download: 602320286
+      total: 1073741824000
     cron: ""
     headers: ""
   - time: 1683473783962.yml
@@ -255,9 +255,9 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 0
-      download: 1
-      total: 1
+      upload: 77827
+      download: 668983
+      total: 536870912000
     cron: ""
     headers: ""
 index: 9

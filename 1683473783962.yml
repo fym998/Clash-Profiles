@@ -182,12 +182,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - US
-      - 美国01 [CM隧道]
-      - 美国01 [CU隧道]
-      - 美国02 [CM隧道]
-      - 美国02 [CU隧道]
-      - 美国03 [CM隧道]
-      - 美国03 [CU隧道]
+      - 英国01 ChatGPT专用 [CM隧道]
+      - 英国01 ChatGPT专用 [CU隧道]
+      - 土耳其01 ChatGPT专用 [CM]
+      - 土耳其01 ChatGPT专用 [CU]
+      - 台湾01 ChatGPT [CM隧道]
+      - 台湾01 ChatGPT [CU隧道]
   - name: eromanga
     type: select
     proxies:
