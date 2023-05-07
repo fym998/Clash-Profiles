@@ -96,11 +96,7 @@ files:
     url: https://g1.subjsm.cyou/link/7so3Yo2mRbSKQ7WU?clash=1&extend=1
     selected: []
     interval: 240
-    subInfo:
-      upload: 62497124
-      download: 2392569257
-      total: 275951648768
-      expire: 1681099882
+    subInfo: {}
     cron: ""
     headers: ""
   - time: 1678540279387.yml
@@ -109,9 +105,9 @@ files:
     selected: []
     interval: 240
     subInfo:
-      upload: 35803014867
-      download: 240835565398
-      total: 275951648768
+      upload: 0
+      download: 0
+      total: 0
       expire: 1681099882
     cron: ""
     headers: ""
@@ -125,7 +121,7 @@ files:
       - name: 🚀 节点选择
         now: 🔮 负载均衡
       - name: 🚀 手动切换
-        now: 🇯🇵 Lv4 日本lins
+        now: 🇹🇷 Lv4 土耳其
       - name: 📲 电报消息
         now: 🚀 节点选择
       - name: 📹 油管视频
@@ -135,7 +131,7 @@ files:
       - name: 📺 巴哈姆特
         now: 🇨🇳 台湾节点
       - name: 📺 哔哩哔哩
-        now: 🇭🇰 香港节点
+        now: 🎯 全球直连
       - name: pixiv
         now: 🚀 节点选择
       - name: eromanga
@@ -157,7 +153,7 @@ files:
       - name: 🍎 苹果服务
         now: DIRECT
       - name: 🎮 游戏平台
-        now: 🚀 节点选择
+        now: 🚀 手动切换
       - name: 🎶 网易音乐
         now: DIRECT
       - name: 🎯 全球直连
@@ -167,17 +163,17 @@ files:
       - name: 🍃 应用净化
         now: REJECT
       - name: 🐟 漏网之鱼
-        now: 🚀 节点选择
+        now: DIRECT
       - name: 🇭🇰 香港节点
         now: 🇭🇰 Lv4 香港s
       - name: 🇨🇳 台湾节点
-        now: 🇨🇳 Lv4 台湾hi52 NF上
+        now: 🇨🇳 Lv4 台湾hi52
       - name: 🎥 奈飞节点
-        now: 🇸🇬 Lv4 新加坡 解锁NF 1.5x
-    interval: 240
+        now: 🇸🇬 Lv4 新加坡 解锁NF GPT 2x
+    interval: 24
     subInfo:
-      upload: 43334779699
-      download: 127190338056
+      upload: 1960192036
+      download: 55270204560
       total: 256624295936
       expire: 1683527011
     cron: ""
@@ -201,4 +197,67 @@ files:
     subInfo: {}
     cron: ""
     headers: ""
-index: 4
+  - time: 1682134140102.yml
+    name: 中文机场
+    url: https://www.zwtg888.com/api/v1/client/subscribe?token=18d18dbcc53d5a299f8d1d42e4d7158f&flag=clash
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 0
+      download: 0
+      total: 10737417166258176
+      expire: 1684672274
+  - time: 1683385384922.yml
+    name: INSNOW.CO
+    url: https://sub.insnow.cloud/api/v1/client/subscribe?token=43a059fcdc0bca8527b4dea6352075b9
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 26806
+      download: 20447
+      total: 536870912000
+  - time: 1683385443029.yml
+    name: GW云洞
+    url: https://api.dingyueapi.win/api/v1/client/subscribe?token=7308918500efdc974af008a20f63f148
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 5611195
+      download: 601237731
+      total: 1073741824000
+    mode: global
+  - time: 1683471704565.yml
+    name: zm conv
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fs.52zm.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D1c7dce8c1985b774a69403cbd3cca7e1&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 1997406584
+      download: 56218736509
+      total: 256624295936
+      expire: 1699424611
+    cron: ""
+    headers: ""
+  - time: 1683473733716.yml
+    name: GW conv
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fapi.dingyueapi.win%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D7308918500efdc974af008a20f63f148&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 0
+      download: 1
+      total: 1
+    cron: ""
+    headers: ""
+  - time: 1683473783962.yml
+    name: INSNOW conv
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fsub.insnow.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D43a059fcdc0bca8527b4dea6352075b9&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 0
+      download: 1
+      total: 1
+    cron: ""
+    headers: ""
+index: 9
