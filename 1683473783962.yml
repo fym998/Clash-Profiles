@@ -5,44 +5,44 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "新加坡03 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19944, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: sg.node03.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "新加坡04 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19946, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: sg.node04.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本03 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19907, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node03.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本04 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19929, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node04.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "英国01 ChatGPT专用 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19961, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: uk.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "英国01 ChatGPT专用 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19962, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: uk.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本05 [CM]", server: gdcm.relay01.fast001.buzz, port: 19953, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node05.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本05 [CU]", server: hncu.relay01.fast001.buzz, port: 19954, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node05.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本06 [CM]", server: gdcm.relay01.fast001.buzz, port: 19956, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node06.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本06 [CU]", server: hncu.relay01.fast001.buzz, port: 19957, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node06.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "土耳其01 ChatGPT专用 [CM]", server: gdcm.relay01.fast001.buzz, port: 19948, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: tr.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "土耳其01 ChatGPT专用 [CU]", server: hncu.relay01.fast001.buzz, port: 19949, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: tr.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "台湾01 ChatGPT [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19935, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: tw.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "台湾01 ChatGPT [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19908, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: tw.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "香港01 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19920, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: hk.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "香港01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19902, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: hk.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "香港02 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19943, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: hk.node02.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "香港02 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19917, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: hk.node02.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "香港03 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19942, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: hk.node03.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "香港03 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19916, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: hk.node03.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "韩国01 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19940, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: kr.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "韩国01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19913, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: kr.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "新加坡01 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19906, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: sg.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "新加坡01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19914, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: sg.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "新加坡02 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19905, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: sg.node02.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "新加坡02 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19928, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: sg.node02.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本01 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19924, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19923, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本02 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19939, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node02.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "日本02 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19938, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: jp.node02.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "美国01 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19930, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: us.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "美国01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19926, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: us.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "美国02 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19941, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: us.node02.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "美国02 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19922, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: us.node02.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "美国03 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19915, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: us.node03.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "美国03 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19958, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: us.node03.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯 [CM隧道]", server: gdcm.relay01.fast001.buzz, port: 19934, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: ru.node01.fast001.buzz, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19932, type: trojan, password: 9047f253-67b2-4855-b225-6373385c5eec, sni: ru.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "新加坡03 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19944, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: sg.node03.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "新加坡04 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19946, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: sg.node04.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本03 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19907, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node03.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本04 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19929, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node04.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "英国01 ChatGPT专用 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19961, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: uk.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "英国01 ChatGPT专用 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19962, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: uk.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本05 [CM]", server: cnmlgsb.relay01.fast001.buzz, port: 19953, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node05.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本05 [CU]", server: hncu.relay01.fast001.buzz, port: 19954, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node05.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本06 [CM]", server: cnmlgsb.relay01.fast001.buzz, port: 19956, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node06.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本06 [CU]", server: hncu.relay01.fast001.buzz, port: 19957, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node06.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "土耳其01 ChatGPT专用 [CM]", server: cnmlgsb.relay01.fast001.buzz, port: 19948, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: tr.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "土耳其01 ChatGPT专用 [CU]", server: hncu.relay01.fast001.buzz, port: 19949, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: tr.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "台湾01 ChatGPT [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19935, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: tw.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "台湾01 ChatGPT [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19908, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: tw.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "香港01 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19920, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: hk.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "香港01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19902, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: hk.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "香港02 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19943, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: hk.node02.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "香港02 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19917, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: hk.node02.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "香港03 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19942, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: hk.node03.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "香港03 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19916, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: hk.node03.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "韩国01 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19940, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: kr.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "韩国01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19913, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: kr.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "新加坡01 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19906, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: sg.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "新加坡01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19914, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: sg.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "新加坡02 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19905, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: sg.node02.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "新加坡02 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19928, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: sg.node02.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本01 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19924, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19923, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本02 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19939, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node02.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "日本02 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19938, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: jp.node02.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "美国01 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19930, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: us.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "美国01 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19926, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: us.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "美国02 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19941, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: us.node02.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "美国02 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19922, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: us.node02.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "美国03 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19915, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: us.node03.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "美国03 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19958, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: us.node03.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "俄罗斯 [CM隧道]", server: cnmlgsb.relay01.fast001.buzz, port: 19934, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: ru.node01.fast001.buzz, skip-cert-verify: true, udp: true}
+  - {name: "俄罗斯 [CU隧道]", server: hncu.relay01.fast001.buzz, port: 19932, type: trojan, password: 49714b2a-5400-4e76-bf6b-bf5ef98db972, sni: ru.node01.fast001.buzz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select

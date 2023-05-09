@@ -1,104 +1,69 @@
 files:
-  - url: ""
-    time: 1661329332331.yml
-    name: New Text Document.yml
-    selected:
-      - name: GLOBAL
-        now: Lv4 台湾 hi52 解锁
-      - name: 代理
-        now: load balance
-      - name: 带宽
-        now: load balance
-      - name: 玄学
-        now: 代理
-      - name: 港台限定
-        now: Lv4 台湾2Xsg-sh
-      - name: bilibili
-        now: DIRECT
-      - name: 其他
-        now: DIRECT
-      - name: 拦截
-        now: REJECT
-    mode: rule
-  - time: 1678540044630.yml
-    name: JSM
-    url: https://g1.subjsm.cyou/link/7so3Yo2mRbSKQ7WU?clash=1&extend=1
-    selected: []
-    interval: 240
-    subInfo: {}
-    cron: ""
-    headers: ""
-  - time: 1682134140102.yml
-    name: 中文机场
-    url: https://www.zwtg888.com/api/v1/client/subscribe?token=18d18dbcc53d5a299f8d1d42e4d7158f&flag=clash
-    selected: []
-    interval: 24
-    subInfo:
-      upload: 0
-      download: 0
-      total: 10737417166258176
-      expire: 1684672274
   - time: 1683385384922.yml
     name: INSNOW.CO
-    url: https://sub.insnow.cloud/api/v1/client/subscribe?token=43a059fcdc0bca8527b4dea6352075b9
+    url: https://sub.insnow.cloud/api/v1/client/subscribe?token=4304543fb04f91421f567c54e4cf3c69
     selected: []
     interval: 24
     subInfo:
-      upload: 839233
-      download: 92177578
+      upload: 21751022
+      download: 14315803181
       total: 536870912000
+    cron: ""
+    headers: ""
   - time: 1683385443029.yml
     name: GW云洞
-    url: https://api.dingyueapi.win/api/v1/client/subscribe?token=7308918500efdc974af008a20f63f148
+    url: https://api.dingyueapi.win/api/v1/client/subscribe?token=9d71fca1dae0380b07e11535b9330e5f
     selected: []
     interval: 24
     subInfo:
-      upload: 5377764952
-      download: 558314201688
+      upload: 5884800310
+      download: 604785133433
       total: 1073741824000
     mode: global
+    cron: ""
+    headers: ""
   - time: 1683471704565.yml
-    name: zm conv
-    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fs.52zm.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D1c7dce8c1985b774a69403cbd3cca7e1&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    name: 芝麻 conv
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fs.52zm.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Db0d9322a70965c5686da0de0347441b2&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
     selected: []
     interval: 24
     subInfo:
-      upload: 2109223
-      download: 76499830
+      upload: 29549169
+      download: 4854802025
       total: 256624295936
       expire: 1699424611
     cron: ""
     headers: ""
   - time: 1683473733716.yml
     name: GW conv
-    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fapi.dingyueapi.win%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D7308918500efdc974af008a20f63f148&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fapi.dingyueapi.win%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D9d71fca1dae0380b07e11535b9330e5f&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
     selected: []
     interval: 24
     subInfo:
-      upload: 5229497554
-      download: 553319654141
+      upload: 5884800310
+      download: 604785133433
       total: 1073741824000
     cron: ""
     headers: ""
   - time: 1683473783962.yml
     name: INSNOW conv
-    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fsub.insnow.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D43a059fcdc0bca8527b4dea6352075b9&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fsub.insnow.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D4304543fb04f91421f567c54e4cf3c69&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
     selected: []
     interval: 24
     subInfo:
-      upload: 0
-      download: 0
+      upload: 21751022
+      download: 14315803181
       total: 536870912000
     cron: ""
     headers: ""
-  - time: 1683594590897.yml
+  - time: 1683631065900.yml
     name: 芝麻
-    url: https://s.52zm.cloud/api/v1/client/subscribe?token=1c7dce8c1985b774a69403cbd3cca7e1
+    url: https://s.52zm.cloud/api/v1/client/subscribe?token=b0d9322a70965c5686da0de0347441b2
     selected: []
     interval: 24
     subInfo:
-      upload: 760636221
-      download: 257231935804
+      upload: 29527964
+      download: 4854773212
       total: 256624295936
       expire: 1699424611
-index: 5
+index: 2
