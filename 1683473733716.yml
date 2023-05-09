@@ -134,8 +134,8 @@ proxy-groups:
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
-    url: https://github.com/
-    interval: 300
+    url: https://www.youtube.com/generate_204
+    interval: 3600
     proxies:
       - DIRECT
       - 香港-HKBGP-Basic-01
@@ -335,8 +335,8 @@ proxy-groups:
   - name: HK
     type: load-balance
     strategy: consistent-hashing
-    url: https://github.com/
-    interval: 300
+    url: https://www.youtube.com/generate_204
+    interval: 3600
     proxies:
       - 香港-HKBGP-Basic-01
       - 香港-HKBGP-Basic-02
@@ -361,8 +361,8 @@ proxy-groups:
   - name: US
     type: load-balance
     strategy: consistent-hashing
-    url: https://github.com/
-    interval: 300
+    url: https://www.youtube.com/generate_204
+    interval: 3600
     proxies:
       - 美国-USBGP-Basic-01
       - 美国-USBGP-Basic-02
@@ -378,7 +378,7 @@ proxy-groups:
     type: load-balance
     strategy: consistent-hashing
     url: http://www.netflix.com/
-    interval: 300
+    interval: 3600
     proxies:
       - DIRECT
 rules:

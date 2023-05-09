@@ -5,10 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Lv4 新加坡11, server: gdcm-inteng.iqencrypt.com, port: 49219, type: trojan, password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: Lv4 新加坡10, server: gdcm-inteng.iqencrypt.com, port: 45076, type: trojan, password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 香港1nextnet, server: gdcm-inteng.iqencrypt.com, port: 25772, type: trojan, password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡6, server: gdcm-inteng.iqencrypt.com, port: 39334, type: trojan, password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡3, server: gdcm-inteng.iqencrypt.com, port: 23003, type: trojan, password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: Lv4 新加坡10, server: gdcm-inteng.iqencrypt.com, port: 45076, type: trojan, password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡8, server: gdcm-inteng.iqencrypt.com, port: 37171, type: trojan, password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡4, server: gdcm-inteng.iqencrypt.com, port: 49213, type: trojan, password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡1, server: gdcm-inteng.iqencrypt.com, port: 45177, type: trojan, password: f3c53ca0-20a8-4bd5-8e68-13e5fdcb2a83, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
@@ -76,10 +77,11 @@ proxy-groups:
   - name: 手动切换
     type: select
     proxies:
+      - Lv4 新加坡11
+      - Lv4 新加坡10
       - Lv4 香港1nextnet
       - Lv4 新加坡6
       - Lv4 新加坡3
-      - Lv4 新加坡10
       - Lv4 新加坡8
       - Lv4 新加坡4
       - Lv4 新加坡1
@@ -138,14 +140,15 @@ proxy-groups:
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
-    url: https://github.com/
-    interval: 300
+    url: https://www.youtube.com/generate_204
+    interval: 3600
     proxies:
       - DIRECT
+      - Lv4 新加坡11
+      - Lv4 新加坡10
       - Lv4 香港1nextnet
       - Lv4 新加坡6
       - Lv4 新加坡3
-      - Lv4 新加坡10
       - Lv4 新加坡8
       - Lv4 新加坡4
       - Lv4 新加坡1
@@ -326,8 +329,8 @@ proxy-groups:
   - name: HK
     type: load-balance
     strategy: consistent-hashing
-    url: https://github.com/
-    interval: 300
+    url: https://www.youtube.com/generate_204
+    interval: 3600
     proxies:
       - Lv4 香港1nextnet
       - Lv4 香港neko HN
@@ -338,8 +341,8 @@ proxy-groups:
   - name: US
     type: load-balance
     strategy: consistent-hashing
-    url: https://github.com/
-    interval: 300
+    url: https://www.youtube.com/generate_204
+    interval: 3600
     proxies:
       - Lv4 美国 大概能用ChatGPT
       - Lv4 美国3 大概能用ChatGPT
@@ -360,7 +363,7 @@ proxy-groups:
     type: load-balance
     strategy: consistent-hashing
     url: http://www.netflix.com/
-    interval: 300
+    interval: 3600
     proxies:
       - Lv4 新加坡 解锁NF GPT 2x
       - Lv4 日本4 解锁迪士尼

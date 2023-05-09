@@ -20,180 +20,11 @@ files:
       - name: 拦截
         now: REJECT
     mode: rule
-  - time: 1661582074819.yml
-    name: ZM
-    url: http://127.0.0.1/chfs/shared/sub.yaml
-    selected:
-      - name: GLOBAL
-        now: 🔮 负载均衡
-      - name: 🚀 节点选择
-        now: 🔮 负载均衡
-      - name: 🚀 手动切换
-        now: 🇯🇵 Lv4 日本lins
-      - name: 📲 电报消息
-        now: 🚀 节点选择
-      - name: pixiv
-        now: 🚀 节点选择
-      - name: 📹 油管视频
-        now: 🚀 节点选择
-      - name: 🎥 奈飞视频
-        now: 🚀 节点选择
-      - name: 📺 巴哈姆特
-        now: 🇨🇳 台湾节点
-      - name: 📺 哔哩哔哩
-        now: DIRECT
-      - name: eromanga
-        now: 🚀 节点选择
-      - name: 🌍 国外媒体
-        now: 🚀 节点选择
-      - name: 🌏 国内媒体
-        now: DIRECT
-      - name: 📢 谷歌FCM
-        now: 🚀 节点选择
-      - name: Ⓜ️ 微软云盘
-        now: 🚀 节点选择
-      - name: Ⓜ️ 微软服务
-        now: DIRECT
-      - name: 🍎 苹果服务
-        now: DIRECT
-      - name: 🎮 游戏平台
-        now: 🚀 节点选择
-      - name: 🎶 网易音乐
-        now: DIRECT
-      - name: Github
-        now: 🚀 节点选择
-      - name: OpenAI
-        now: 🇺🇲 美国节点
-      - name: 🎯 全球直连
-        now: DIRECT
-      - name: 🛑 广告拦截
-        now: REJECT
-      - name: 🍃 应用净化
-        now: REJECT
-      - name: 🐟 漏网之鱼
-        now: DIRECT
-      - name: 🇭🇰 香港节点
-        now: 🇭🇰 Lv4 香港HE2-hgc-bj 解锁
-      - name: 🇯🇵 日本节点
-        now: 🇯🇵 Lv4 日本lins
-      - name: 🇺🇲 美国节点
-        now: 🇺🇸 Lv4 美国 洛杉矶inp
-      - name: 🇨🇳 台湾节点
-        now: 🇸🇬 Lv4 台湾2xsg-sh
-      - name: 🇸🇬 狮城节点
-        now: 🇸🇬 Lv4 新加坡 linode
-      - name: 🇰🇷 韩国节点
-        now: 🇰🇷 Lv3 韩国甲骨
-      - name: 🎥 奈飞节点
-        now: 🇸🇬 Lv4 新加坡HE解锁
-    interval: 0
-    subInfo: {}
-    mode: rule
-    cron: ""
-    headers: ""
   - time: 1678540044630.yml
     name: JSM
     url: https://g1.subjsm.cyou/link/7so3Yo2mRbSKQ7WU?clash=1&extend=1
     selected: []
     interval: 240
-    subInfo: {}
-    cron: ""
-    headers: ""
-  - time: 1678540279387.yml
-    name: JSM
-    url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fg1.subjsm.cyou%2Flink%2F7so3Yo2mRbSKQ7WU%3Fclash%3D1%26extend%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini
-    selected: []
-    interval: 240
-    subInfo:
-      upload: 0
-      download: 0
-      total: 0
-      expire: 1681099882
-    cron: ""
-    headers: ""
-    mode: rule
-  - time: 1678792976899.yml
-    name: ZM
-    url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fs.52zm.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D1c7dce8c1985b774a69403cbd3cca7e1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini
-    selected:
-      - name: GLOBAL
-        now: DIRECT
-      - name: 🚀 节点选择
-        now: 🔮 负载均衡
-      - name: 🚀 手动切换
-        now: 🇹🇷 Lv4 土耳其
-      - name: 📲 电报消息
-        now: 🚀 节点选择
-      - name: 📹 油管视频
-        now: 🚀 节点选择
-      - name: 🎥 奈飞视频
-        now: 🚀 节点选择
-      - name: 📺 巴哈姆特
-        now: 🇨🇳 台湾节点
-      - name: 📺 哔哩哔哩
-        now: 🎯 全球直连
-      - name: pixiv
-        now: 🚀 节点选择
-      - name: eromanga
-        now: 🚀 节点选择
-      - name: Github
-        now: 🚀 节点选择
-      - name: OpenAI
-        now: 🇺🇲 美国节点
-      - name: 🌍 国外媒体
-        now: 🚀 节点选择
-      - name: 🌏 国内媒体
-        now: DIRECT
-      - name: 📢 谷歌FCM
-        now: 🚀 节点选择
-      - name: Ⓜ️ 微软云盘
-        now: 🚀 节点选择
-      - name: Ⓜ️ 微软服务
-        now: 🇺🇲 美国节点
-      - name: 🍎 苹果服务
-        now: DIRECT
-      - name: 🎮 游戏平台
-        now: 🚀 手动切换
-      - name: 🎶 网易音乐
-        now: DIRECT
-      - name: 🎯 全球直连
-        now: DIRECT
-      - name: 🛑 广告拦截
-        now: REJECT
-      - name: 🍃 应用净化
-        now: REJECT
-      - name: 🐟 漏网之鱼
-        now: DIRECT
-      - name: 🇭🇰 香港节点
-        now: 🇭🇰 Lv4 香港s
-      - name: 🇨🇳 台湾节点
-        now: 🇨🇳 Lv4 台湾hi52
-      - name: 🎥 奈飞节点
-        now: 🇸🇬 Lv4 新加坡 解锁NF GPT 2x
-    interval: 24
-    subInfo:
-      upload: 1960192036
-      download: 55270204560
-      total: 256624295936
-      expire: 1683527011
-    cron: ""
-    headers: ""
-    mode: rule
-  - time: 1679878341269.yml
-    name: freenode
-    url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Ffreenode.me%2Fwp-content%2Fuploads%2F2023%2F03%2F298.yaml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini
-    selected:
-      - name: GLOBAL
-        now: DIRECT
-      - name: 🚀 节点选择
-        now: CN_FreeNode.me_8
-      - name: 🎯 全球直连
-        now: DIRECT
-      - name: 🛑 全球拦截
-        now: REJECT
-      - name: 🐟 漏网之鱼
-        now: 🚀 节点选择
-    interval: 0
     subInfo: {}
     cron: ""
     headers: ""
@@ -213,8 +44,8 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 26806
-      download: 20447
+      upload: 839233
+      download: 92177578
       total: 536870912000
   - time: 1683385443029.yml
     name: GW云洞
@@ -222,8 +53,8 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 5611195
-      download: 601237731
+      upload: 5377764952
+      download: 558314201688
       total: 1073741824000
     mode: global
   - time: 1683471704565.yml
@@ -232,8 +63,8 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 1998279769
-      download: 56232403139
+      upload: 2109223
+      download: 76499830
       total: 256624295936
       expire: 1699424611
     cron: ""
@@ -244,8 +75,8 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 5712391
-      download: 602320286
+      upload: 5229497554
+      download: 553319654141
       total: 1073741824000
     cron: ""
     headers: ""
@@ -255,9 +86,19 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 77827
-      download: 668983
+      upload: 0
+      download: 0
       total: 536870912000
     cron: ""
     headers: ""
-index: 9
+  - time: 1683594590897.yml
+    name: 芝麻
+    url: https://s.52zm.cloud/api/v1/client/subscribe?token=1c7dce8c1985b774a69403cbd3cca7e1
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 760636221
+      download: 257231935804
+      total: 256624295936
+      expire: 1699424611
+index: 5
