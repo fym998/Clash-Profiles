@@ -1,37 +1,14 @@
 files:
-  - time: 1683385384922.yml
-    name: INSNOW.CO
-    url: https://sub.insnow.cloud/api/v1/client/subscribe?token=4304543fb04f91421f567c54e4cf3c69
-    selected: []
-    interval: 24
-    subInfo:
-      upload: 21751022
-      download: 14315803181
-      total: 536870912000
-    cron: ""
-    headers: ""
   - time: 1683385443029.yml
     name: GW云洞
     url: https://api.dingyueapi.win/api/v1/client/subscribe?token=9d71fca1dae0380b07e11535b9330e5f
     selected: []
     interval: 24
     subInfo:
-      upload: 5884800310
-      download: 604785133433
+      upload: 5901732391
+      download: 608587392088
       total: 1073741824000
     mode: global
-    cron: ""
-    headers: ""
-  - time: 1683471704565.yml
-    name: 芝麻 conv
-    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fs.52zm.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Db0d9322a70965c5686da0de0347441b2&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
-    selected: []
-    interval: 24
-    subInfo:
-      upload: 29549169
-      download: 4854802025
-      total: 256624295936
-      expire: 1699424611
     cron: ""
     headers: ""
   - time: 1683473733716.yml
@@ -40,9 +17,20 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 5884800310
-      download: 604785133433
+      upload: 8171251372
+      download: 780632842373
       total: 1073741824000
+    cron: ""
+    headers: ""
+  - time: 1683385384922.yml
+    name: INSNOW.CO
+    url: https://sub.insnow.cloud/api/v1/client/subscribe?token=4304543fb04f91421f567c54e4cf3c69
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 21756647
+      download: 14315872664
+      total: 536870912000
     cron: ""
     headers: ""
   - time: 1683473783962.yml
@@ -51,8 +39,8 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 21751022
-      download: 14315803181
+      upload: 21756647
+      download: 14315872664
       total: 536870912000
     cron: ""
     headers: ""
@@ -62,8 +50,56 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 29527964
-      download: 4854773212
+      upload: 63631958
+      download: 11957233858
       total: 256624295936
       expire: 1699424611
-index: 2
+  - time: 1683471704565.yml
+    name: 芝麻 conv
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fs.52zm.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Db0d9322a70965c5686da0de0347441b2&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    selected:
+      - name: GLOBAL
+        now: DIRECT
+      - name: 节点选择
+        now: 负载均衡
+      - name: 手动切换
+        now: Lv4 新加坡11
+      - name: Telegram
+        now: 节点选择
+      - name: YouTube
+        now: 节点选择
+      - name: 巴哈姆特
+        now: Lv4 台湾hi52
+      - name: bilibili
+        now: 直连
+      - name: GitHub
+        now: 节点选择
+      - name: OpenAI
+        now: Lv4 美国 大概能用ChatGPT
+      - name: eromanga
+        now: 直连
+      - name: 国外媒体
+        now: 节点选择
+      - name: Google FCM
+        now: DIRECT
+      - name: Onedrive
+        now: DIRECT
+      - name: Microsoft
+        now: DIRECT
+      - name: 游戏
+        now: DIRECT
+      - name: 直连
+        now: DIRECT
+      - name: 广告
+        now: REJECT
+      - name: 其他
+        now: DIRECT
+    interval: 24
+    subInfo:
+      upload: 204983330
+      download: 33175183267
+      total: 256624295936
+      expire: 1699424611
+    cron: ""
+    headers: ""
+index: 5

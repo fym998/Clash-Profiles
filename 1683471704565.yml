@@ -5,14 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Lv4 新加坡1, server: gdcm-inteng.iqencrypt.com, port: 45177, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡11, server: gdcm-inteng.iqencrypt.com, port: 49219, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡10, server: gdcm-inteng.iqencrypt.com, port: 45076, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 香港1nextnet, server: gdcm-inteng.iqencrypt.com, port: 25772, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: Lv4 香港2nextnet, server: gdcm-inteng.iqencrypt.com, port: 25722, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡6, server: gdcm-inteng.iqencrypt.com, port: 39334, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡3, server: gdcm-inteng.iqencrypt.com, port: 23003, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡8, server: gdcm-inteng.iqencrypt.com, port: 37171, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡4, server: gdcm-inteng.iqencrypt.com, port: 49213, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: Lv4 新加坡1, server: gdcm-inteng.iqencrypt.com, port: 45177, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡5, server: gdcm-inteng.iqencrypt.com, port: 44778, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡2, server: gdcm-inteng.iqencrypt.com, port: 41718, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
   - {name: Lv4 新加坡 12, server: gdcm-inteng.iqencrypt.com, port: 31128, type: trojan, password: cf743e3e-c821-4bc8-b411-26d72e5760a3, sni: 279088.download.windowsupdate.com, skip-cert-verify: true, udp: true}
@@ -77,14 +78,15 @@ proxy-groups:
   - name: 手动切换
     type: select
     proxies:
+      - Lv4 新加坡1
       - Lv4 新加坡11
       - Lv4 新加坡10
       - Lv4 香港1nextnet
+      - Lv4 香港2nextnet
       - Lv4 新加坡6
       - Lv4 新加坡3
       - Lv4 新加坡8
       - Lv4 新加坡4
-      - Lv4 新加坡1
       - Lv4 新加坡5
       - Lv4 新加坡2
       - Lv4 新加坡 12
@@ -144,14 +146,15 @@ proxy-groups:
     interval: 3600
     proxies:
       - DIRECT
+      - Lv4 新加坡1
       - Lv4 新加坡11
       - Lv4 新加坡10
       - Lv4 香港1nextnet
+      - Lv4 香港2nextnet
       - Lv4 新加坡6
       - Lv4 新加坡3
       - Lv4 新加坡8
       - Lv4 新加坡4
-      - Lv4 新加坡1
       - Lv4 新加坡5
       - Lv4 新加坡2
       - Lv4 新加坡 12
@@ -233,6 +236,7 @@ proxy-groups:
       - 直连
       - HK
       - Lv4 香港1nextnet
+      - Lv4 香港2nextnet
       - Lv4 香港neko HN
       - Lv4 香港s
       - Lv4 香港HE2-hgc-sh
@@ -300,6 +304,14 @@ proxy-groups:
       - US
       - HK
       - 手动切换
+  - name: Bing
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - US
+      - HK
+      - 手动切换
   - name: 游戏
     type: select
     proxies:
@@ -333,6 +345,7 @@ proxy-groups:
     interval: 3600
     proxies:
       - Lv4 香港1nextnet
+      - Lv4 香港2nextnet
       - Lv4 香港neko HN
       - Lv4 香港s
       - Lv4 香港HE2-hgc-sh
@@ -2005,6 +2018,7 @@ rules:
   - DOMAIN-KEYWORD,jmcomic,eromanga
   - DOMAIN-KEYWORD,cdn-msp,eromanga
   - DOMAIN-KEYWORD,18comic,eromanga
+  - DOMAIN-SUFFIX,bing.com,Bing
   - DOMAIN-SUFFIX,acl4.ssr,直连
   - DOMAIN-SUFFIX,ip6-localhost,直连
   - DOMAIN-SUFFIX,ip6-loopback,直连
