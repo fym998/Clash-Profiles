@@ -1,24 +1,24 @@
 files:
   - time: 1683385443029.yml
     name: GW云洞
-    url: https://api.dingyueapi.win/api/v1/client/subscribe?token=9d71fca1dae0380b07e11535b9330e5f
+    url: https://api.dingyueapi.win/api/v1/client/subscribe?token=96304ee8f4bb3f197630bf01b9cc15a8
     selected: []
     interval: 24
     subInfo:
-      upload: 5901732391
-      download: 608587392088
+      upload: 9341210871
+      download: 869361394615
       total: 1073741824000
     mode: global
     cron: ""
     headers: ""
   - time: 1683473733716.yml
     name: GW conv
-    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fapi.dingyueapi.win%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D9d71fca1dae0380b07e11535b9330e5f&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fapi.dingyueapi.win%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D96304ee8f4bb3f197630bf01b9cc15a8&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
     selected: []
     interval: 24
     subInfo:
-      upload: 8171251372
-      download: 780632842373
+      upload: 9341210871
+      download: 869361394615
       total: 1073741824000
     cron: ""
     headers: ""
@@ -28,8 +28,8 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 21756647
-      download: 14315872664
+      upload: 63886165
+      download: 18174091220
       total: 536870912000
     cron: ""
     headers: ""
@@ -39,8 +39,8 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 21756647
-      download: 14315872664
+      upload: 63886165
+      download: 18174091220
       total: 536870912000
     cron: ""
     headers: ""
@@ -50,8 +50,8 @@ files:
     selected: []
     interval: 24
     subInfo:
-      upload: 63631958
-      download: 11957233858
+      upload: 745721876
+      download: 257352390498
       total: 256624295936
       expire: 1699424611
   - time: 1683471704565.yml
@@ -96,10 +96,10 @@ files:
         now: DIRECT
     interval: 24
     subInfo:
-      upload: 204983330
-      download: 33175183267
+      upload: 745721876
+      download: 257352390498
       total: 256624295936
       expire: 1699424611
     cron: ""
     headers: ""
-index: 5
+index: 1
