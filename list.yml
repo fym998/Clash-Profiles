@@ -1,27 +1,30 @@
 files:
   - time: 1683385443029.yml
     name: GW云洞
-    url: https://api.dingyueapi.win/api/v1/client/subscribe?token=96304ee8f4bb3f197630bf01b9cc15a8
+    url: https://api.dingyueapi.win/api/v1/client/subscribe?token=9078929d4443d8a0fa4651002914b68f
     selected: []
     interval: 24
     subInfo:
-      upload: 9341210871
-      download: 869361394615
-      total: 1073741824000
+      upload: 0
+      download: 0
+      total: 107374182400
+      expire: 1686980865
     mode: global
     cron: ""
     headers: ""
   - time: 1683473733716.yml
     name: GW conv
-    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fapi.dingyueapi.win%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D96304ee8f4bb3f197630bf01b9cc15a8&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fapi.dingyueapi.win%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D9078929d4443d8a0fa4651002914b68f&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
     selected: []
-    interval: 24
+    interval: 0
     subInfo:
-      upload: 9341210871
-      download: 869361394615
-      total: 1073741824000
+      upload: 5890
+      download: 7334
+      total: 107374182400
+      expire: 1686980865
     cron: ""
     headers: ""
+    mode: rule
   - time: 1683385384922.yml
     name: INSNOW.CO
     url: https://sub.insnow.cloud/api/v1/client/subscribe?token=4304543fb04f91421f567c54e4cf3c69
@@ -37,7 +40,7 @@ files:
     name: INSNOW conv
     url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fsub.insnow.cloud%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D4304543fb04f91421f567c54e4cf3c69&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
     selected: []
-    interval: 24
+    interval: 0
     subInfo:
       upload: 63886165
       download: 18174091220
@@ -94,7 +97,7 @@ files:
         now: REJECT
       - name: 其他
         now: DIRECT
-    interval: 24
+    interval: 0
     subInfo:
       upload: 745721876
       download: 257352390498
