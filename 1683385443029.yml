@@ -15,34 +15,34 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：100 GB', type: ss, server: hk1.network-cdn-gw.cc, port: 47795, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 套餐到期：2023-06-17, type: ss, server: hk1.network-cdn-gw.cc, port: 47795, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-01, type: ss, server: hk1.network-cdn-gw.cc, port: 47795, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-02, type: ss, server: hk2.network-cdn-gw.cc, port: 47790, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-03, type: ss, server: hk3.network-cdn-gw.cc, port: 47756, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-04, type: ss, server: hk4.network-cdn-gw.cc, port: 47759, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-05, type: ss, server: hk5.network-cdn-gw.cc, port: 47705, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-06, type: ss, server: hk6.network-cdn-gw.cc, port: 47706, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-07, type: ss, server: hk7.network-cdn-gw.cc, port: 47707, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-08, type: ss, server: hk8.network-cdn-gw.cc, port: 47708, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-09, type: ss, server: hk9.network-cdn-gw.cc, port: 47709, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 香港-HKBGP-Basic-10, type: ss, server: hk10.network-cdn-gw.cc, port: 47710, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 韩国-KRBGP-Basic-01, type: ss, server: kr03.network-cdn-gw.cc, port: 41115, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 越南-VNBGP-Basic-专线01, type: ss, server: vn01.network-cdn-gw.cc, port: 20001, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 菲律宾-PHBGP-Pro-专线, type: ss, server: ph.network-cdn-gw.cc, port: 20005, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 日本-JPBGP-Basic-01, type: ss, server: jp01.network-cdn-gw.cc, port: 48801, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 日本-JPBGP-Basic-02, type: ss, server: jp02.network-cdn-gw.cc, port: 48802, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 台湾-TWBGP-Basic-01, type: ss, server: tw01.network-cdn-gw.cc, port: 46601, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 新加坡-SGPBGP-Basic-01, type: ss, server: sgp01.network-cdn-gw.cc, port: 45501, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 美国-USBGP-Basic-01, type: ss, server: us06.network-cdn-gw.cc, port: 43111, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 美国-USBGP-Basic-02, type: ss, server: us07.network-cdn-gw.cc, port: 43211, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 美国-USBGP-Basic-03, type: ss, server: us08.network-cdn-gw.cc, port: 43212, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 美国-USBGP-Basic-04, type: ss, server: us09.network-cdn-gw.cc, port: 43213, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
-    - { name: 美国-USBGP-Basic-05, type: ss, server: us10.network-cdn-gw.cc, port: 43215, cipher: chacha20-ietf-poly1305, password: 35135d71-1a89-473e-b8f3-12063e452ce4, udp: true }
+    - { name: '剩余流量：42.2 GB', type: ss, server: hk1.network-cdn-gw.cc, port: 47795, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 套餐到期：2023-06-17, type: ss, server: hk1.network-cdn-gw.cc, port: 47795, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-01, type: ss, server: hk1.network-cdn-gw.cc, port: 47795, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-02, type: ss, server: hk2.network-cdn-gw.cc, port: 47790, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-03, type: ss, server: hk3.network-cdn-gw.cc, port: 47756, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-04, type: ss, server: hk4.network-cdn-gw.cc, port: 47759, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-05, type: ss, server: hk5.network-cdn-gw.cc, port: 47705, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-06, type: ss, server: hk6.network-cdn-gw.cc, port: 47706, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-07, type: ss, server: hk7.network-cdn-gw.cc, port: 47707, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-08, type: ss, server: hk8.network-cdn-gw.cc, port: 47708, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-09, type: ss, server: hk9.network-cdn-gw.cc, port: 47709, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 香港-HKBGP-Basic-10, type: ss, server: hk10.network-cdn-gw.cc, port: 47710, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 韩国-KRBGP-Basic-01, type: ss, server: kr03.network-cdn-gw.cc, port: 41115, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 越南-VNBGP-Basic-专线01, type: ss, server: vn01.network-cdn-gw.cc, port: 20001, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 菲律宾-PHBGP-Pro-专线, type: ss, server: ph.network-cdn-gw.cc, port: 20005, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 日本-JPBGP-Basic-01, type: ss, server: jp01.network-cdn-gw.cc, port: 48801, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 日本-JPBGP-Basic-02, type: ss, server: jp02.network-cdn-gw.cc, port: 48802, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 台湾-TWBGP-Basic-01, type: ss, server: tw01.network-cdn-gw.cc, port: 46601, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 新加坡-SGPBGP-Basic-01, type: ss, server: sgp01.network-cdn-gw.cc, port: 45501, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 美国-USBGP-Basic-01, type: ss, server: us06.network-cdn-gw.cc, port: 43111, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 美国-USBGP-Basic-02, type: ss, server: us07.network-cdn-gw.cc, port: 43211, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 美国-USBGP-Basic-03, type: ss, server: us08.network-cdn-gw.cc, port: 43212, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 美国-USBGP-Basic-04, type: ss, server: us09.network-cdn-gw.cc, port: 43213, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
+    - { name: 美国-USBGP-Basic-05, type: ss, server: us10.network-cdn-gw.cc, port: 43215, cipher: chacha20-ietf-poly1305, password: 0a02c001-d3a1-47d5-8a97-2ed4c70a8466, udp: true }
 proxy-groups:
-    - { name: GW云洞, type: select, proxies: [自动选择, 故障转移, '剩余流量：100 GB', 套餐到期：2023-06-17, 香港-HKBGP-Basic-01, 香港-HKBGP-Basic-02, 香港-HKBGP-Basic-03, 香港-HKBGP-Basic-04, 香港-HKBGP-Basic-05, 香港-HKBGP-Basic-06, 香港-HKBGP-Basic-07, 香港-HKBGP-Basic-08, 香港-HKBGP-Basic-09, 香港-HKBGP-Basic-10, 韩国-KRBGP-Basic-01, 越南-VNBGP-Basic-专线01, 菲律宾-PHBGP-Pro-专线, 日本-JPBGP-Basic-01, 日本-JPBGP-Basic-02, 台湾-TWBGP-Basic-01, 新加坡-SGPBGP-Basic-01, 美国-USBGP-Basic-01, 美国-USBGP-Basic-02, 美国-USBGP-Basic-03, 美国-USBGP-Basic-04, 美国-USBGP-Basic-05] }
-    - { name: 自动选择, type: url-test, proxies: ['剩余流量：100 GB', 套餐到期：2023-06-17, 香港-HKBGP-Basic-01, 香港-HKBGP-Basic-02, 香港-HKBGP-Basic-03, 香港-HKBGP-Basic-04, 香港-HKBGP-Basic-05, 香港-HKBGP-Basic-06, 香港-HKBGP-Basic-07, 香港-HKBGP-Basic-08, 香港-HKBGP-Basic-09, 香港-HKBGP-Basic-10, 韩国-KRBGP-Basic-01, 越南-VNBGP-Basic-专线01, 菲律宾-PHBGP-Pro-专线, 日本-JPBGP-Basic-01, 日本-JPBGP-Basic-02, 台湾-TWBGP-Basic-01, 新加坡-SGPBGP-Basic-01, 美国-USBGP-Basic-01, 美国-USBGP-Basic-02, 美国-USBGP-Basic-03, 美国-USBGP-Basic-04, 美国-USBGP-Basic-05], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['剩余流量：100 GB', 套餐到期：2023-06-17, 香港-HKBGP-Basic-01, 香港-HKBGP-Basic-02, 香港-HKBGP-Basic-03, 香港-HKBGP-Basic-04, 香港-HKBGP-Basic-05, 香港-HKBGP-Basic-06, 香港-HKBGP-Basic-07, 香港-HKBGP-Basic-08, 香港-HKBGP-Basic-09, 香港-HKBGP-Basic-10, 韩国-KRBGP-Basic-01, 越南-VNBGP-Basic-专线01, 菲律宾-PHBGP-Pro-专线, 日本-JPBGP-Basic-01, 日本-JPBGP-Basic-02, 台湾-TWBGP-Basic-01, 新加坡-SGPBGP-Basic-01, 美国-USBGP-Basic-01, 美国-USBGP-Basic-02, 美国-USBGP-Basic-03, 美国-USBGP-Basic-04, 美国-USBGP-Basic-05], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: GW云洞, type: select, proxies: [自动选择, 故障转移, '剩余流量：42.2 GB', 套餐到期：2023-06-17, 香港-HKBGP-Basic-01, 香港-HKBGP-Basic-02, 香港-HKBGP-Basic-03, 香港-HKBGP-Basic-04, 香港-HKBGP-Basic-05, 香港-HKBGP-Basic-06, 香港-HKBGP-Basic-07, 香港-HKBGP-Basic-08, 香港-HKBGP-Basic-09, 香港-HKBGP-Basic-10, 韩国-KRBGP-Basic-01, 越南-VNBGP-Basic-专线01, 菲律宾-PHBGP-Pro-专线, 日本-JPBGP-Basic-01, 日本-JPBGP-Basic-02, 台湾-TWBGP-Basic-01, 新加坡-SGPBGP-Basic-01, 美国-USBGP-Basic-01, 美国-USBGP-Basic-02, 美国-USBGP-Basic-03, 美国-USBGP-Basic-04, 美国-USBGP-Basic-05] }
+    - { name: 自动选择, type: url-test, proxies: ['剩余流量：42.2 GB', 套餐到期：2023-06-17, 香港-HKBGP-Basic-01, 香港-HKBGP-Basic-02, 香港-HKBGP-Basic-03, 香港-HKBGP-Basic-04, 香港-HKBGP-Basic-05, 香港-HKBGP-Basic-06, 香港-HKBGP-Basic-07, 香港-HKBGP-Basic-08, 香港-HKBGP-Basic-09, 香港-HKBGP-Basic-10, 韩国-KRBGP-Basic-01, 越南-VNBGP-Basic-专线01, 菲律宾-PHBGP-Pro-专线, 日本-JPBGP-Basic-01, 日本-JPBGP-Basic-02, 台湾-TWBGP-Basic-01, 新加坡-SGPBGP-Basic-01, 美国-USBGP-Basic-01, 美国-USBGP-Basic-02, 美国-USBGP-Basic-03, 美国-USBGP-Basic-04, 美国-USBGP-Basic-05], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['剩余流量：42.2 GB', 套餐到期：2023-06-17, 香港-HKBGP-Basic-01, 香港-HKBGP-Basic-02, 香港-HKBGP-Basic-03, 香港-HKBGP-Basic-04, 香港-HKBGP-Basic-05, 香港-HKBGP-Basic-06, 香港-HKBGP-Basic-07, 香港-HKBGP-Basic-08, 香港-HKBGP-Basic-09, 香港-HKBGP-Basic-10, 韩国-KRBGP-Basic-01, 越南-VNBGP-Basic-专线01, 菲律宾-PHBGP-Pro-专线, 日本-JPBGP-Basic-01, 日本-JPBGP-Basic-02, 台湾-TWBGP-Basic-01, 新加坡-SGPBGP-Basic-01, 美国-USBGP-Basic-01, 美国-USBGP-Basic-02, 美国-USBGP-Basic-03, 美国-USBGP-Basic-04, 美国-USBGP-Basic-05], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,sogaapi.xyz,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,GW云洞'

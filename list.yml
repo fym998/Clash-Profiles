@@ -1,25 +1,25 @@
 files:
   - time: 1683385443029.yml
     name: GW云洞
-    url: https://api.dingyueapi.win/api/v1/client/subscribe?token=9078929d4443d8a0fa4651002914b68f
+    url: https://api.dingyueapi.win/api/v1/client/subscribe?token=98ee616f40ab77fd7d5e1d76c0a26574
     selected: []
     interval: 24
     subInfo:
-      upload: 0
-      download: 0
+      upload: 2740404159
+      download: 59323083216
       total: 107374182400
       expire: 1686980865
-    mode: global
+    mode: rule
     cron: ""
     headers: ""
   - time: 1683473733716.yml
     name: GW conv
-    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fapi.dingyueapi.win%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D9078929d4443d8a0fa4651002914b68f&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
+    url: http://127.0.0.1:25500/sub?target=clash&url=https%3A%2F%2Fapi.dingyueapi.win%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D98ee616f40ab77fd7d5e1d76c0a26574&config=https%3A%2F%2Fraw.githubusercontent.com%2Ffujun998%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FA.ini
     selected: []
     interval: 0
     subInfo:
-      upload: 5890
-      download: 7334
+      upload: 2748019376
+      download: 59352195274
       total: 107374182400
       expire: 1686980865
     cron: ""
